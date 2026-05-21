@@ -11,3 +11,6 @@
 - Wired `src/App.jsx` directly to `src/data/dashboardData.js` and rendered the four required read-only panels without API calls or editing controls.
 - Added small component boundaries for agent cards, task status, logs/memos, model strategy, and visible text status badges so Task 4 can focus on mission-control visual polish.
 - Updated the smoke test to assert the four panel headings render and that the null-assignee edge case appears as `Unassigned`.
+
+## 2026-05-21 Task 3 - favicon console QA fix
+- Added a tiny inline SVG favicon in `index.html` so the frontend page loads without a `/favicon.ico` 404 during browser QA.
