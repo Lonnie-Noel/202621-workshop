@@ -8,7 +8,7 @@
       "plan_name": "multi-agent-orchestration-dashboard",
       "status": "active",
       "started_at": "2026-05-21T06:23:00.300Z",
-      "updated_at": "2026-05-21T08:23:53.241Z",
+      "updated_at": "2026-05-21T08:47:37.820Z",
       "session_ids": [
         "ses_1b6e4403dffeaTydy0PDbRXZtW",
         "ses_1b6cbfcceffeBiQYS5wACwx6wK",
@@ -40,9 +40,20 @@
           "task_title": "Build frontend dashboard panels from dummy data",
           "session_id": "ses_1b661fb24ffeX0IjNnd8sw85FZ",
           "agent": "Sisyphus-Junior",
-          "category": "worker-holic-programmer",
-          "updated_at": "2026-05-21T08:23:53.243Z",
+          "category": "",
           "started_at": "2026-05-21T08:23:53.243Z",
+          "status": "running",
+          "updated_at": "2026-05-21T08:36:19.650Z"
+        },
+        "todo:4": {
+          "task_key": "todo:4",
+          "task_label": "4",
+          "task_title": "Apply distinctive mission-control visual design",
+          "session_id": "ses_1b64f2d13ffefH2DAxxrRtmxO7",
+          "agent": "Sisyphus-Junior",
+          "category": "worker-holic-programmer",
+          "updated_at": "2026-05-21T08:47:37.822Z",
+          "started_at": "2026-05-21T08:47:37.822Z",
           "status": "running"
         }
       }
@@ -51,7 +62,7 @@
   "active_plan": "C:\\Users\\Kinzzo\\Desktop\\202621-workshop\\.omo\\plans\\multi-agent-orchestration-dashboard.md",
   "started_at": "2026-05-21T06:23:00.300Z",
   "status": "active",
-  "updated_at": "2026-05-21T08:23:53.241Z",
+  "updated_at": "2026-05-21T08:47:37.820Z",
   "session_ids": [
     "ses_1b6e4403dffeaTydy0PDbRXZtW",
     "ses_1b6cbfcceffeBiQYS5wACwx6wK",
@@ -83,9 +94,20 @@
       "task_title": "Build frontend dashboard panels from dummy data",
       "session_id": "ses_1b661fb24ffeX0IjNnd8sw85FZ",
       "agent": "Sisyphus-Junior",
-      "category": "worker-holic-programmer",
-      "updated_at": "2026-05-21T08:23:53.243Z",
+      "category": "",
       "started_at": "2026-05-21T08:23:53.243Z",
+      "status": "running",
+      "updated_at": "2026-05-21T08:36:19.650Z"
+    },
+    "todo:4": {
+      "task_key": "todo:4",
+      "task_label": "4",
+      "task_title": "Apply distinctive mission-control visual design",
+      "session_id": "ses_1b64f2d13ffefH2DAxxrRtmxO7",
+      "agent": "Sisyphus-Junior",
+      "category": "worker-holic-programmer",
+      "updated_at": "2026-05-21T08:47:37.822Z",
+      "started_at": "2026-05-21T08:47:37.822Z",
       "status": "running"
     }
   },

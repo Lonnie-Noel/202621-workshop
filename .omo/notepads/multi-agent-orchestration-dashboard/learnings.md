@@ -14,3 +14,7 @@
 
 ## 2026-05-21 Task 3 - favicon console QA fix
 - Added a tiny inline SVG favicon in `index.html` so the frontend page loads without a `/favicon.ico` 404 during browser QA.
+
+## 2026-05-21 Task 4 - mission-control visual design
+- Reworked `src/styles.css` around CSS variables for obsidian surfaces, amber/cyan telemetry accents, layered grid/noise atmosphere, responsive command-center panels, visible status badges, focus-visible outlines, and reduced-motion fallback.
+- Kept Task 3's read-only React panel structure and local dummy data intact; only added safe font preconnect/link metadata in `index.html` for the retro-futuristic dashboard typography.

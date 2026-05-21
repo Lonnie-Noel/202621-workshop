@@ -43,7 +43,7 @@
   - [ ] `src/data/dashboardData.js` exports agents, tasks, logs, and modelStrategy arrays with edge cases.
   - [ ] `npm install`, `npm run build`, and `npm test -- --run` pass.
 
-- [ ] 3. Build frontend dashboard panels from dummy data
+- [x] 3. Build frontend dashboard panels from dummy data
 
   **What to do**: Implement components for agent cards, task status list, log/memo panel, and model strategy checklist. Wire them into `src/App.jsx` using `src/data/dashboardData.js`.
   **Must NOT do**: Do not fetch from API; do not add editing controls.
