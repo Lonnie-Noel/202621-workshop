@@ -54,7 +54,7 @@
   - [ ] Unknown/error status renders a visible warning label.
   - [ ] `npm test -- --run` passes.
 
-- [ ] 4. Apply distinctive mission-control visual design
+- [x] 4. Apply distinctive mission-control visual design
 
   **What to do**: Add/refine `src/styles.css` for dark obsidian surfaces, amber/cyan accents, layered grid/noise atmosphere, responsive layout, status badges, focus-visible states, and reduced-motion fallback.
   **Must NOT do**: Do not add Tailwind/MUI/Chakra/Bootstrap or animation libraries.
