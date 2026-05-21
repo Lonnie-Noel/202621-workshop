@@ -1,0 +1,2 @@
+## 2026-05-21 Task: scope-reduction
+User requested reducing elapsed time by removing backend features and replacing API/backend work with frontend dummy data. Plan was rewritten to frontend-only fast MVP: 6 implementation tasks plus 3 final verification gates. Task 1 remains checked because bootstrap was already verified; Task 2 now removes backend remnants and creates `src/data/dashboardData.js`.

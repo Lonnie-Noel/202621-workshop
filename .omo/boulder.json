@@ -1,0 +1,71 @@
+{
+  "schema_version": 2,
+  "active_work_id": "multi-agent-orchestration-dashboard-c49bfcff",
+  "works": {
+    "multi-agent-orchestration-dashboard-c49bfcff": {
+      "work_id": "multi-agent-orchestration-dashboard-c49bfcff",
+      "active_plan": "C:\\Users\\Kinzzo\\Desktop\\202621-workshop\\.omo\\plans\\multi-agent-orchestration-dashboard.md",
+      "plan_name": "multi-agent-orchestration-dashboard",
+      "status": "active",
+      "started_at": "2026-05-21T06:23:00.300Z",
+      "updated_at": "2026-05-21T07:03:45.433Z",
+      "session_ids": [
+        "ses_1b6e4403dffeaTydy0PDbRXZtW",
+        "ses_1b6cbfcceffeBiQYS5wACwx6wK",
+        "ses_1b6cbfc8bffe3a7L5kdC7KeMiQ",
+        "ses_1b6cbfbf8ffe0px3xu4V4m5SXh"
+      ],
+      "session_origins": {
+        "ses_1b6e4403dffeaTydy0PDbRXZtW": "direct",
+        "ses_1b6cbfcceffeBiQYS5wACwx6wK": "appended",
+        "ses_1b6cbfc8bffe3a7L5kdC7KeMiQ": "appended",
+        "ses_1b6cbfbf8ffe0px3xu4V4m5SXh": "appended"
+      },
+      "agent": "atlas",
+      "task_sessions": {
+        "todo:1": {
+          "task_key": "todo:1",
+          "task_label": "1",
+          "task_title": "Bootstrap npm/Vite/Express workspace",
+          "session_id": "ses_1b6c4ed2cffexkv7VucODcPa7b",
+          "agent": "Sisyphus-Junior",
+          "category": "guru-programmer",
+          "started_at": "2026-05-21T06:30:27.627Z",
+          "status": "running",
+          "updated_at": "2026-05-21T07:03:45.436Z"
+        }
+      }
+    }
+  },
+  "active_plan": "C:\\Users\\Kinzzo\\Desktop\\202621-workshop\\.omo\\plans\\multi-agent-orchestration-dashboard.md",
+  "started_at": "2026-05-21T06:23:00.300Z",
+  "status": "active",
+  "updated_at": "2026-05-21T07:03:45.433Z",
+  "session_ids": [
+    "ses_1b6e4403dffeaTydy0PDbRXZtW",
+    "ses_1b6cbfcceffeBiQYS5wACwx6wK",
+    "ses_1b6cbfc8bffe3a7L5kdC7KeMiQ",
+    "ses_1b6cbfbf8ffe0px3xu4V4m5SXh"
+  ],
+  "session_origins": {
+    "ses_1b6e4403dffeaTydy0PDbRXZtW": "direct",
+    "ses_1b6cbfcceffeBiQYS5wACwx6wK": "appended",
+    "ses_1b6cbfc8bffe3a7L5kdC7KeMiQ": "appended",
+    "ses_1b6cbfbf8ffe0px3xu4V4m5SXh": "appended"
+  },
+  "plan_name": "multi-agent-orchestration-dashboard",
+  "task_sessions": {
+    "todo:1": {
+      "task_key": "todo:1",
+      "task_label": "1",
+      "task_title": "Bootstrap npm/Vite/Express workspace",
+      "session_id": "ses_1b6c4ed2cffexkv7VucODcPa7b",
+      "agent": "Sisyphus-Junior",
+      "category": "guru-programmer",
+      "started_at": "2026-05-21T06:30:27.627Z",
+      "status": "running",
+      "updated_at": "2026-05-21T07:03:45.436Z"
+    }
+  },
+  "agent": "atlas"
+}
