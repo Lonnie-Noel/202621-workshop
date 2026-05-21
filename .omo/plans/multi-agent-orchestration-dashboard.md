@@ -32,7 +32,7 @@
   **Status**: Completed before the scope reduction. Verified `npm install`, `npm run build`, and `npm test -- --run`. Scope is now narrowed, so Task 2 will remove backend-specific bootstrap remnants.
   **Evidence**: `.omo/evidence/task-1-bootstrap-build.txt`, `.omo/evidence/task-1-bootstrap-error.txt`.
 
-- [ ] 2. Convert bootstrap to frontend-only dummy-data workspace
+- [x] 2. Convert bootstrap to frontend-only dummy-data workspace
 
   **What to do**: Remove backend-oriented MVP requirements from the app workspace: remove `server/`, remove Express/Supertest dependencies, remove `dev:api` and `test:api` scripts, keep frontend scripts, and add `src/data/dashboardData.js` with local dummy agents/tasks/logs/modelStrategy data.
   **Must NOT do**: Do not build full UI panels yet; do not add backend/API routes.

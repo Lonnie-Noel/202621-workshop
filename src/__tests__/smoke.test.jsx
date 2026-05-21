@@ -2,15 +2,14 @@ import { render, screen } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 import App from '../App.jsx';
 
-describe('App bootstrap placeholder', () => {
-  it('renders the placeholder shell', () => {
+describe('App dashboard smoke test', () => {
+  it('renders the four dashboard panels', () => {
     render(<App />);
 
-    expect(
-      screen.getByRole('heading', { name: /orchestration dashboard bootstrap/i })
-    ).toBeInTheDocument();
-    expect(
-      screen.getByText(/tooling shell is ready for the dashboard implementation/i)
-    ).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /agent cards/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /task status list/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /log memo panel/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /model strategy checklist/i })).toBeInTheDocument();
+    expect(screen.getByText('Unassigned')).toBeInTheDocument();
   });
 });
